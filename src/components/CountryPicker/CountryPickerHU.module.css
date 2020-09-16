@@ -1,0 +1,13 @@
+.bn {
+  font-family: 'Mukta', sans-serif;
+}
+
+.en {
+  font-family: 'Mukta', sans-serif;
+}
+
+.country::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  font-weight: 700;
+  opacity: 1; /* Firefox */
+}

@@ -1,0 +1,195 @@
+@import '~antd/dist/antd.css';
+
+*:focus {
+    outline: 2px solid #d71ef7;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a:focus {
+  outline-width: 1px;
+  outline-style: dashed;
+  outline-color: red;
+}
+ 
+body {
+  font-family: 'Mukta', sans-serif;
+  background-color: #eee;
+}
+
+.cases {
+  background-color: #fff;
+  border: 0;
+}
+
+.deaths {
+  background-color: #fff;
+  border: 0;
+}
+
+.recovered {
+  background-color: #fff;
+  border: 0;
+}
+
+.local .cases {
+  /* background-color: transparent; */
+  border: 0;
+}
+
+.local .deaths {
+  /* background-color: transparent; */
+  border: 0;
+}
+
+.local .recovered {
+  /* background-color: transparent; */
+  border: 0;
+}
+
+.critical {
+  /* background-color: transparent; */
+  border: 0;
+  border-radius: 5px;
+}
+
+.font-bd {
+  font-family: 'Mukta', sans-serif;
+}
+
+.font-en {
+  font-family: 'Mukta', sans-serif;
+}
+
+.global p,
+.local p {
+  font-size: 18px;
+}
+
+/* .global{
+  color: #fff;
+} */
+.cases,
+.deaths,
+.recovered,
+.critical {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.heart {
+  color: #f36;
+}
+
+.clock {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+  .clock {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.icon i {
+  font-size: 30px;
+}
+
+.icon.github i {
+  color: #24292E;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.landing {
+  background: url('./images/land.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 400px) {
+  .fb {
+    display: none;
+  }
+
+  .landing {
+    background-size: contain;
+  }
+}
+
+footer {
+  background-color: #2e8568;
+}
+
+footer p {
+  color: #eee;
+}
+
+footer a {
+  margin-left: 5px;
+  color: #fff;
+}
+
+.hero {
+  background-color: #2e8568;
+  border-radius: 0;
+}
+
+.hero h1 {
+  color: #fff;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #fff;
+}
+
+h2 {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.nav-link-gyik {
+  position: relative;
+  font-size: 21px;
+  font-weight: 800;
+  color: #24292E;
+  top: 10px;
+  right: 20px;
+}
+
+.nav-link-impressum {
+  position: relative;
+  font-size: 21px;
+  font-weight: 800;
+  color: #24292E;
+  top: 10px;
+  right: 20px;
+}
+
+.country::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  font-weight: 700;
+  opacity: 1; /* Firefox */
+}
